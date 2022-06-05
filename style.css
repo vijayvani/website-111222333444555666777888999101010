@@ -1,3 +1,10 @@
-body {
-
+h1 {
+  color: salmon;
+  font-size: 50px;
+}
+body{
+  background-color: wheat;
+}
+img{
+  border: black solid 2px;
 }
