@@ -1,10 +1,40 @@
-h1 {
-  color: salmon;
-  font-size: 50px;
+<style>
+  h1 {
+  color: #D64550;
+  text-align: center;
+  font-size: 50px
 }
-body{
-  background-color: wheat;
+
+body {
+  background-color: #5ea7bf;
 }
-img{
-  border: black solid 2px;
+img {
+  width: 50%;
 }
+nav{
+  list-style-type: none;
+  position: fixed;
+  background-color: #5e93bf;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  top: 0;
+  left: 0;
+}
+
+li{
+  display: inline;
+  padding: 3px;
+  margin: 5px;
+  float: right;
+}
+a{
+  color: black;
+  text-decoration: black;
+  font-size: 25px
+}
+
+li a: hover{
+  background-color: #71c7c7;
+}
+  </style>
